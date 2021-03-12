@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="301ff101-5561-439b-b897-0b7995687246" name="Default Changelist" comment="" />
+    <list default="true" id="301ff101-5561-439b-b897-0b7995687246" name="Default Changelist" comment="触屏设备兼容">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas.html" beforeDir="false" afterPath="$PROJECT_DIR$/canvas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/canvas.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1irz1RG7LC1mXzbNZdJQm4xXUHf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -34,6 +44,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager">
     <configuration name="canvas.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/canvas.js" working-dir="$PROJECT_DIR$">
@@ -69,13 +80,22 @@
       <workItem from="1611989122725" duration="6277000" />
       <workItem from="1615089860724" duration="179000" />
       <workItem from="1615456919494" duration="2950000" />
+      <workItem from="1615520988768" duration="4519000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="触屏设备兼容" />
+    <option name="LAST_COMMIT_MESSAGE" value="触屏设备兼容" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1615528568887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1615528568887" />
     <state width="754" height="210" key="GridCell.Tab.0.bottom" timestamp="1612453788445">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -92,9 +112,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="754" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612453788444" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611998006054">
+    <state x="270" y="54" key="SettingsEditor" timestamp="1615528289782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611998006054" />
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1615528289782" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615526762957">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615526762957" />
   </component>
 </project>

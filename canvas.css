@@ -1,27 +1,94 @@
+ul,ol{list-style: none}
+*{
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
 #xxx{
-    background: green;
+    background: white;
     display: block;
+    position: fixed;
+    top:0;
 }
 
 body{
     margin: 0px;
-}
-
-html{
+    overflow: hidden;
 }
 
 .actions{
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
+    padding: 20px;
 }
-.actions > #brush{
-    display: none;
+.actions>svg{
+    width: 2em;
+    height: 1.5em;
+    margin: 0 5px;
+    transition: all 0.3s;
 }
+.actions>svg.active{
+    fill:red;
+    transform: scale(1.2);
+}
+.color{
+    position: fixed;
+    top:70px;
+    left: 15px;
+}
+.color>li{
+    width: 20px;
+    height: 20px;
+    border-radius:50% ;
+    border: 2px solid #cccccc;
+    margin: 5px 10px;
+    transition: 0.3s;
 
-.actions.x > #brush{
-    display: inline-block;
 }
-.actions.x > #eraser{
-    display: none
+.color>li.active{
+    transform: scale(1.2);
+
+}
+.color>li.black{
+    background-color: black;
+}
+.color>li.red{
+    background-color: red;
+}
+.color>li.green{
+    background-color: green;
+}
+.color>li.blue{
+    background-color: blue;
+}
+.color>li.yellow{
+    background-color: yellow;
+}
+.penSize{
+    position: fixed;
+    top:80px;
+    right: 15px;
+}
+.penSize>li{
+    margin: 20px 5px;
+}
+.penSize>.thin{
+    height: 0;
+    width: 20px;
+    border-top: 3px solid black ;
+}
+.penSize>.thick{
+    height: 0;
+    width: 20px;
+    border-top: 8px solid black ;
+}
+.penSize>li.active{
+    transform: scale(1.5);
 }
